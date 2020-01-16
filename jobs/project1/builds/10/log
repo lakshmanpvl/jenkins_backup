@@ -1,0 +1,28 @@
+Started by user [8mha:////4Oyjw0iqsofXJyF+intIVOGzDVAX3mT6fmIWoW+8SEqLAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZO/dLi1CL9grIcADlwdE2+AAAA[0mLakshminarayana P V
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmanpvl/pvl.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmanpvl/pvl.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/lakshmanpvl/pvl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b # timeout=10
+Commit message: "Delete pom.xml"
+ > git rev-list --no-walk 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b # timeout=10
+[project1] $ /bin/sh -xe /tmp/jenkins6422174559458729122.sh
++ cd /var/lib/jenkins/workspace/project1
++ make
+make: 'ABC.exe' is up to date.
++ scp -i /var/lib/jenkins/workspace/project1/ABC.exe ubuntu@172.31.18.138:/home/ubuntu/
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: lakshmanpvl@gmail.com
+Finished: FAILURE

@@ -1,0 +1,11 @@
+Started on Jan 15, 2020, 4:13:59 AM
+Started by event from 192.30.252.90 ⇒ http://18.188.17.63:8080/github-webhook/ on Wed Jan 15 04:13:58 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 43f236f51e407f76e4f85aa261bf169580ca87fa (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/lakshmanpvl/javaproject1.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmanpvl/javaproject1.git
+[poll] Latest remote head revision on refs/heads/master is: 2234e80a4861da0e0883500a91516ff6252ad5b4
+Done. Took 0.22 sec
+Changes found

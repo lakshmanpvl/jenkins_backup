@@ -1,0 +1,9 @@
+Started on Jan 14, 2020, 6:51:01 PM
+Using strategy: Default
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/lakshmanpvl/javaproject1.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmanpvl/javaproject1.git
+[poll] Latest remote head revision on refs/heads/master is: 666dc21f59a75bc986689b85815a30d980dd9aae
+Done. Took 0.67 sec
+Changes found

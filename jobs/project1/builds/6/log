@@ -1,0 +1,45 @@
+Started by user [8mha:////4Oyjw0iqsofXJyF+intIVOGzDVAX3mT6fmIWoW+8SEqLAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZO/dLi1CL9grIcADlwdE2+AAAA[0mLakshminarayana P V
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmanpvl/pvl.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmanpvl/pvl.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/lakshmanpvl/pvl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b # timeout=10
+Commit message: "Delete pom.xml"
+ > git rev-list --no-walk 9f48ba9ae36aa26dc3202b8d619fd577b26ed46b # timeout=10
+[project1] $ /bin/sh -xe /tmp/jenkins7700391860733076829.sh
++ cd /var/lib/jenkins/workspace/project1
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:2:6: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+      big3();
+      ^~~~
+main.c:3:6: warning: implicit declaration of function ‘fact1’ [-Wimplicit-function-declaration]
+      fact1();
+      ^~~~~
+main.c:4:6: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+      palindrome();
+      ^~~~~~~~~~
+main.c:5:6: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+      reverse();
+      ^~~~~~~
+main.c:6:6: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+      sort();
+      ^~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c palindrome.c
+gcc -c reverse.c
+gcc -c sort.c
+gcc -o ABC.exe main.o big3.o fact.o palindrome.o reverse.o sort.o
+Sending e-mails to: lakshmanpvl@gmail.com
+Finished: SUCCESS

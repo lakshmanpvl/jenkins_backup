@@ -1,0 +1,10 @@
+Started on Jan 14, 2020, 7:05:01 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 666dc21f59a75bc986689b85815a30d980dd9aae (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/lakshmanpvl/javaproject1.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmanpvl/javaproject1.git
+[poll] Latest remote head revision on refs/heads/master is: cce5f14026512344ca80a6fa25daca13282a319b
+Done. Took 0.34 sec
+Changes found

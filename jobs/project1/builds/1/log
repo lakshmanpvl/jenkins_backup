@@ -1,0 +1,23 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmanpvl/pvl.git
+ > git init /var/lib/jenkins/workspace/project1 # timeout=10
+Fetching upstream changes from https://github.com/lakshmanpvl/pvl.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/lakshmanpvl/pvl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmanpvl/pvl.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmanpvl/pvl.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmanpvl/pvl.git
+ > git fetch --tags --progress -- https://github.com/lakshmanpvl/pvl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 63f40a598a45ef95c4fc4e9bd4793e4bc30aad81 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 63f40a598a45ef95c4fc4e9bd4793e4bc30aad81 # timeout=10
+Commit message: "new files"
+First time build. Skipping changelog.
+Finished: SUCCESS

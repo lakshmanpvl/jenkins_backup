@@ -1,0 +1,103 @@
+Started by user [8mha:////4Oyjw0iqsofXJyF+intIVOGzDVAX3mT6fmIWoW+8SEqLAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZO/dLi1CL9grIcADlwdE2+AAAA[0mLakshminarayana P V
+Running as SYSTEM
+Building remotely on [8mha:////4DSI3rXQbATQEb2qnnqcWj05rEkrY/9q4v0Bkvu1t2UnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/dKk0rySUgDdPy90xQAAAA==[0mubuntu in workspace /home/ubuntu/workspace/javaproject1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmanpvl/javaproject1.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmanpvl/javaproject1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/lakshmanpvl/javaproject1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cce5f14026512344ca80a6fa25daca13282a319b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cce5f14026512344ca80a6fa25daca13282a319b # timeout=10
+Commit message: "Merge https://github.com/lakshmanpvl/javaproject1"
+ > git rev-list --no-walk cce5f14026512344ca80a6fa25daca13282a319b # timeout=10
+[javaproject1] $ /bin/sh -xe /tmp/jenkins17714250454166411281.sh
++ mvn clean install
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.mcnz.rps:roshambo[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding roshambo 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+Progress (1): 2.2/5.8 kBProgress (1): 5.0/5.8 kBProgress (1): 5.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+Progress (1): 2.2/34 kBProgress (1): 5.0/34 kBProgress (1): 7.7/34 kBProgress (1): 10/34 kB Progress (1): 13/34 kBProgress (1): 16/34 kBProgress (1): 19/34 kBProgress (1): 21/34 kBProgress (1): 24/34 kBProgress (1): 27/34 kBProgress (1): 30/34 kBProgress (1): 32/34 kBProgress (1): 34 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 415 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mroshambo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mroshambo[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/workspace/javaproject1/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.2:compile[m [1m(default-compile)[m @ [36mroshambo[0;1m ---[m
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 5 source files to /home/ubuntu/workspace/javaproject1/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mroshambo[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/workspace/javaproject1/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36mroshambo[0;1m ---[m
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 2 source files to /home/ubuntu/workspace/javaproject1/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mroshambo[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /home/ubuntu/workspace/javaproject1/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mcnz.rps.ScoreTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running com.mcnz.rps.GameSummaryTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mroshambo[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+Progress (1): 2.2/9.9 kBProgress (1): 5.0/9.9 kBProgress (1): 7.8/9.9 kBProgress (1): 9.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom (9.9 kB at 231 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+Progress (1): 2.2/38 kBProgress (1): 5.0/38 kBProgress (1): 7.7/38 kBProgress (1): 10/38 kB Progress (1): 13/38 kBProgress (1): 16/38 kBProgress (1): 19/38 kBProgress (1): 21/38 kBProgress (1): 24/38 kBProgress (1): 27/38 kBProgress (1): 30/38 kBProgress (1): 32/38 kBProgress (1): 35/38 kBProgress (1): 38 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 528 kB/s)
+Progress (1): 2.2/208 kBProgress (1): 5.0/208 kBProgress (1): 7.7/208 kBProgress (1): 10/208 kB Progress (1): 13/208 kBProgress (1): 16/208 kBProgress (1): 19/208 kBProgress (1): 21/208 kBProgress (1): 24/208 kBProgress (1): 27/208 kBProgress (1): 30/208 kBProgress (1): 32/208 kBProgress (1): 36/208 kBProgress (1): 40/208 kBProgress (1): 45/208 kBProgress (1): 49/208 kBProgress (1): 53/208 kBProgress (1): 57/208 kBProgress (1): 61/208 kBProgress (1): 65/208 kBProgress (1): 69/208 kBProgress (1): 73/208 kBProgress (1): 77/208 kBProgress (1): 81/208 kBProgress (1): 85/208 kBProgress (1): 90/208 kBProgress (1): 94/208 kBProgress (1): 98/208 kBProgress (1): 102/208 kBProgress (1): 106/208 kBProgress (1): 110/208 kBProgress (1): 114/208 kBProgress (1): 118/208 kBProgress (1): 122/208 kBProgress (1): 126/208 kBProgress (1): 131/208 kBProgress (1): 135/208 kBProgress (1): 139/208 kBProgress (1): 143/208 kBProgress (1): 147/208 kBProgress (1): 151/208 kBProgress (1): 155/208 kBProgress (1): 159/208 kBProgress (1): 163/208 kBProgress (1): 167/208 kBProgress (1): 171/208 kBProgress (1): 176/208 kBProgress (1): 180/208 kBProgress (1): 184/208 kBProgress (1): 188/208 kBProgress (1): 192/208 kBProgress (1): 196/208 kBProgress (1): 200/208 kBProgress (1): 204/208 kBProgress (1): 208 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (208 kB at 1.1 MB/s)
+[[1;34mINFO[m] Building jar: /home/ubuntu/workspace/javaproject1/target/roshambo-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mroshambo[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 2.2/19 kBProgress (1): 5.0/19 kBProgress (1): 7.8/19 kBProgress (1): 11/19 kB Progress (1): 13/19 kBProgress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 477 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 2.2/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 160 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 2.2/7.2 kBProgress (1): 5.0/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (7.2 kB at 226 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 2.2/7.3 kBProgress (1): 5.0/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 191 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 2.2/230 kBProgress (1): 5.0/230 kBProgress (1): 7.7/230 kBProgress (1): 10/230 kB Progress (1): 13/230 kBProgress (2): 13/230 kB | 2.2/12 kBProgress (2): 13/230 kB | 5.0/12 kBProgress (2): 13/230 kB | 7.7/12 kBProgress (2): 13/230 kB | 10/12 kB Progress (2): 13/230 kB | 12 kB   Progress (2): 16/230 kB | 12 kBProgress (2): 19/230 kB | 12 kBProgress (2): 21/230 kB | 12 kBProgress (2): 24/230 kB | 12 kBProgress (2): 27/230 kB | 12 kBProgress (2): 30/230 kB | 12 kBProgress (2): 32/230 kB | 12 kBProgress (2): 36/230 kB | 12 kBProgress (2): 40/230 kB | 12 kBProgress (2): 45/230 kB | 12 kBProgress (2): 49/230 kB | 12 kBProgress (2): 53/230 kB | 12 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 216 kB/s)
+Progress (1): 57/230 kBProgress (1): 61/230 kBProgress (1): 65/230 kBProgress (1): 69/230 kBProgress (1): 73/230 kBProgress (1): 77/230 kBProgress (1): 81/230 kBProgress (1): 85/230 kBProgress (1): 90/230 kBProgress (1): 94/230 kBProgress (1): 98/230 kBProgress (1): 102/230 kBProgress (1): 106/230 kBProgress (1): 110/230 kBProgress (1): 114/230 kBProgress (1): 118/230 kBProgress (1): 122/230 kBProgress (1): 126/230 kBProgress (1): 131/230 kBProgress (1): 135/230 kBProgress (1): 139/230 kBProgress (1): 143/230 kBProgress (1): 147/230 kBProgress (1): 151/230 kBProgress (1): 155/230 kBProgress (1): 159/230 kBProgress (1): 163/230 kBProgress (1): 167/230 kBProgress (1): 171/230 kBProgress (1): 176/230 kBProgress (1): 180/230 kBProgress (1): 184/230 kBProgress (1): 188/230 kBProgress (1): 192/230 kBProgress (1): 196/230 kBProgress (1): 200/230 kBProgress (1): 204/230 kBProgress (1): 208/230 kBProgress (1): 212/230 kBProgress (1): 217/230 kBProgress (1): 221/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 1.6 MB/s)
+[[1;34mINFO[m] Installing /home/ubuntu/workspace/javaproject1/target/roshambo-1.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/com/mcnz/rps/roshambo/1.0-SNAPSHOT/roshambo-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/ubuntu/workspace/javaproject1/pom.xml to /home/ubuntu/.m2/repository/com/mcnz/rps/roshambo/1.0-SNAPSHOT/roshambo-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.675 s
+[[1;34mINFO[m] Finished at: 2020-01-15T03:04:30Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS
